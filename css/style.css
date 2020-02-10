@@ -61,8 +61,8 @@
     font-size: 5rem;
 }
 
-.site-main.site-banner.site-title h4{
-    font-size: 1.5rem;
+.site-main .site-banner .site-title h4{
+    font: normal bold 2rem/2rem var(--roboto);
 }
 
 .site-main.site-banner.banner-image>img {
@@ -92,7 +92,7 @@
 
 /* Start Brand Area*/
 .site-main .brand-area{
-    padding: 1rem 10rem;
+    padding: 1rem 12rem 1rem  8rem;
     margin-bottom: 4rem;
 }
 
@@ -194,3 +194,25 @@
 }
 
 /* End Services Area*/
+
+/*Project Area*/
+.site-main .project-area{
+    padding-left: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project> .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+/*End Project Area*/
+
