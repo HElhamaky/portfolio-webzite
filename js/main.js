@@ -12,4 +12,26 @@ $(document).ready(function(){
         });
         return false;
     });
+
+    $('.project-area .button-group #btn1').trigger("click");
+
+    $('.project-area .grid .test-popup-link').magnificPopup({
+        type:'image',
+        gallery:{ enabled:true }
+    });
+
+    //Owl-carousel
+    $('.site-main .about-area .owl-carousel').owlCarousel({
+        loop:true,
+        autoplay:true,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            544:{
+                items:2
+            }
+        }
+    })
 });
